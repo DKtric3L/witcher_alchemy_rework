@@ -1,0 +1,54 @@
+{
+  "id": "witcher_alchemy_rework",
+  "title": "Расширенная ведьмачья алхимия",
+  "description": "",
+  "authors": [
+    {
+      "name": "Daekatriel",
+      "discord": "Daekatriel#8765",
+      "url": "https://boosty.to/daekatrielmalinaproject"
+    }
+  ],
+  "version": "1.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 10
+  },
+  "system": "TheWitcherTRPG",
+  "packs": [
+    {
+      "name": "rasshirennaya-vedmachya-alhimiya",
+      "label": "Расширенная Ведьмачья Алхимия",
+      "path": "packs/rasshirennaya-vedmachya-alhimiya.db",
+      "type": "Item",
+      "system": "TheWitcherTRPG"
+    }
+  ],
+  "socket": false,
+  "protected": false,
+  "coreTranslation": false,
+  "library": false,
+  "relationships": {
+    "systems": [
+      {
+        "id": "TheWitcherTRPG",
+        "type": "system",
+        "manifest": "https://github.com/AnthonyMonette/TheWitcherTRPG/releases/latest/download/system.json"
+      }
+    ],
+    "requires": [
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+      },
+      {"id":"the-ultimate-witcher",
+      "type": "module",
+      "Manifest": "https://raw.githubusercontent.com/DKtric3L/The-Ultimate-Witcher/master/module.json"
+      }]
+  },
+  "url": "https://github.com/DKtric3L/witcher_alchemy_rework.git",
+  "manifest": "https://raw.githubusercontent.com/DKtric3L/witcher_alchemy_rework/master/module.json",
+  "download": "https://github.com/DKtric3L/witcher_alchemy_rework/archive/refs/heads/main.zip"
+}
